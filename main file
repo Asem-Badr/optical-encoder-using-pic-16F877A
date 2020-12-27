@@ -2,7 +2,7 @@
  * File:   main.c
  * Author: Asem Badr
  * This project uses pic 16f877A 
- * It calculates the rpm of a motor using an optical encoder and displays it on PORTC as a binary number
+ * It calculates the rps of a motor using an optical encoder and displays it on PORTC as a binary number
  * Created on September 16, 2020, 12:09 AM
  */
 
