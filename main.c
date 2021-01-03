@@ -89,7 +89,7 @@ void __interrupt()ISR(void){
         {
             RB0=~RB0;
             counter=0;
-            PORTC = ((TMR0*2)+(overflows*255))/num_of_sluts;//*2 because of the 2cycle sync
+            PORTC = (TMR0*2)<<1;//*2 because of the 2cycle sync
             TMR0 = 0;
             overflows = 0;
         }
