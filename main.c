@@ -85,7 +85,7 @@ void __interrupt()ISR(void){
     {
         Timer1_preloading(15536);
         counter++;
-        if (counter==20)
+        if (counter==5)
         {
             RB0=~RB0;
             counter=0;
